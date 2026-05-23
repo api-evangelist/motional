@@ -1,0 +1,119 @@
+aid: motional
+name: Motional
+description: >-
+  Motional is a Boston-headquartered autonomous-vehicle company formed as a
+  joint venture between Hyundai Motor Group and Aptiv. Its core product is an
+  all-electric IONIQ 5 robotaxi built on a Hyundai E-GMP platform with
+  Motional's full Level 4 autonomous driving stack and a sensor suite including
+  lidar, radar, and cameras. Motional operates commercial robotaxi service in
+  Las Vegas in partnership with Uber, Uber Eats, and Lyft, with additional
+  operations in Boston, Pittsburgh, Santa Monica, Singapore, and Seoul. The
+  company's most influential developer artifact is nuScenes, the open
+  large-scale multimodal autonomous-driving dataset originally released by
+  nuTonomy (a Motional predecessor), now a de facto benchmark for 3D
+  perception research. Motional also publishes the nuscenes-devkit Python
+  library and AVCDL cybersecurity development lifecycle materials on GitHub.
+  Motional does not publish a traditional public developer API; the developer
+  surface is research-dataset access plus open-source devkits.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2026-05-23'
+modified: '2026-05-23'
+position: Consumer
+tags:
+  - Autonomous Vehicles
+  - Robotaxi
+  - Self-Driving
+  - Hyundai
+  - Aptiv
+  - Open Dataset
+  - nuScenes
+  - Lidar
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/motional/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: motional:nuscenes
+    name: nuScenes Dataset
+    description: >-
+      nuScenes is a large-scale public dataset for autonomous driving released
+      by Motional (formerly nuTonomy). It contains 1,000 driving scenes from
+      Boston and Singapore, with full sensor suites (6 cameras, 5 radars, 1
+      lidar), 3D bounding box annotations across 23 object classes, and
+      HD-map data. nuScenes is widely used to benchmark 3D detection,
+      tracking, prediction, and panoptic segmentation models, and is
+      distributed via the nuscenes-devkit Python library.
+    humanURL: https://www.nuscenes.org
+    baseURL: https://github.com/nutonomy/nuscenes-devkit
+    tags:
+      - Open Dataset
+      - 3D Perception
+      - Lidar
+      - Radar
+      - Camera
+      - Research
+    properties:
+      - type: Documentation
+        url: https://www.nuscenes.org
+      - type: Repository
+        url: https://github.com/nutonomy/nuscenes-devkit
+      - type: Download
+        url: https://www.nuscenes.org/download
+  - aid: motional:avcdl
+    name: AVCDL - Automated Vehicle Cybersecurity Development Lifecycle
+    description: >-
+      Open-source materials for Motional's Automated Vehicle Cybersecurity
+      Development Lifecycle, intended to share AV-industry cybersecurity
+      practices with the broader research and engineering community.
+    humanURL: https://github.com/nutonomy/AVCDL
+    baseURL: https://github.com/nutonomy/AVCDL
+    tags:
+      - Cybersecurity
+      - SDLC
+      - Open Source
+    properties:
+      - type: Repository
+        url: https://github.com/nutonomy/AVCDL
+common:
+  - type: Website
+    url: https://motional.com
+  - type: AboutUs
+    url: https://motional.com/about
+  - type: Newsroom
+    url: https://motional.com/newsroom
+  - type: News
+    url: https://motional.com/news
+  - type: TechnicallySpeaking
+    url: https://motional.com/technicallyspeaking
+  - type: PressKit
+    url: https://motional.com/press-kit
+  - type: Safety
+    url: https://motional.com/safety
+  - type: Technology
+    url: https://motional.com/technology
+  - type: Vehicles
+    url: https://motional.com/vehicles
+  - type: OpenDataset
+    url: https://www.nuscenes.org
+  - type: GitHubOrganization
+    url: https://github.com/nutonomy
+  - type: Careers
+    url: https://motional.com/careers
+  - type: Contact
+    url: https://motional.com/contact
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/motional
+  - type: Twitter
+    url: https://twitter.com/motionaldrive
+  - type: YouTube
+    url: https://www.youtube.com/@MotionalDrive
+integrations:
+  - name: Uber
+  - name: Uber Eats
+  - name: Lyft
+  - name: Hyundai
+  - name: Aptiv
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
