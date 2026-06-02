@@ -1,0 +1,8 @@
+---
+title: 'DriveIRL: Drive in Real Life with Inverse Reinforcement Learning'
+url: https://motional.com/news/driveirl-drive-real-life-inverse-reinforcement-learning
+date: '2026-04-28'
+author: mjohnson@wearegenuine.com
+feed_url: https://motional.com/rss.xml
+---
+DriveIRL: Drive in Real Life with Inverse Reinforcement Learning mjohnson@weare… Tue, 04/28/2026 - 20:23 Authors: Tung Phan-Minh, Forbes Howington, Ting-Sheng Chu, Momchil S. Tomov, Robert E. Beaudoin, Sang Uk Lee, Nanxiang Li, Caglayan Dicle, Samuel Findler, Francisco Suarez-Ruiz, Bo Yang, Sammy Omari, Eric M. Wolff Published: May 29, 2023 Summary: In this paper, we introduce the first published planner to drive a car in dense, urban traffic using Inverse Reinforcement Learning (IRL). Our planner, DriveIRL, generates a diverse set of trajectory proposals and scores them with a learned model. The best trajectory is tracked by our self-driving vehicle's low-level controller. We train our trajectory scoring model on a 500+ hour real-world dataset of expert driving demonstrations in Las Vegas within the maximum entropy IRL framework. DriveIRL's benefits include: a simple design due to only learning the trajectory scoring function, a flexible and relatively interpretable feature engineering approach, and strong real-world performance. We validated DriveIRL on the Las Vegas Strip and demonstrated fully autonomous driving in heavy traffic, including scenarios involving cut-ins, abrupt braking by the lead vehicle, and hotel pickup/dropoff zones. Our dataset, a part of nuPlan, has been released to the public to help further research in this area. Read the Publication

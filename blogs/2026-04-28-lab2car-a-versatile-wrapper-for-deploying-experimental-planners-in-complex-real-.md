@@ -1,0 +1,9 @@
+---
+title: 'Lab2Car: A Versatile Wrapper for Deploying Experimental Planners in Complex
+  Real-World Environments'
+url: https://motional.com/news/lab2car-versatile-wrapper-deploying-experimental-planners-complex-real-world-environments
+date: '2026-04-28'
+author: mjohnson@wearegenuine.com
+feed_url: https://motional.com/rss.xml
+---
+Lab2Car: A Versatile Wrapper for Deploying Experimental Planners in Complex Real-World Environments mjohnson@weare… Tue, 04/28/2026 - 20:48 Authors: Marc Heim, Francisco Suárez-Ruiz, Ishraq Bhuiyan, Bruno Brito, Momchil S. Tomov Published: May 19, 2025 Summary: Human-level autonomous driving is an ever-elusive goal, with planning and decision making - the cognitive functions that determine driving behavior - posing the greatest challenge. Despite a proliferation of promising approaches, progress is stifled by the difficulty of deploying experimental planners in naturalistic settings. In this work, we propose Lab2Car, an optimization-based wrapper that can take a trajectory sketch from an arbitrary motion planner and convert it to a safe, comfortable, dynamically feasible trajectory that the car can follow. This allows motion planners that do not provide such guarantees to be safely tested and optimized in real-world environments. We demonstrate the versatility of Lab2Car by using it to deploy a machine learning (ML) planner and a classical planner on self-driving cars in Las Vegas. The resulting systems handle challenging scenarios, such as cut-ins, overtaking, and yielding, in complex urban environments like casino pick-up/drop-off areas. Our work paves the way for quickly deploying and evaluating candidate motion planners in realistic settings, ensuring rapid iteration and accelerating progress towards human-level autonomy. Read the Publication
