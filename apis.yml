@@ -76,6 +76,10 @@ apis:
       - type: Repository
         url: https://github.com/nutonomy/AVCDL
 common:
+  - type: VulnerabilityDisclosure
+    url: security/motional-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/motional-domain-security.yml
   - type: Website
     url: https://motional.com
   - type: AboutUs
@@ -84,6 +88,8 @@ common:
     url: https://motional.com/newsroom
   - type: News
     url: https://motional.com/news
+  - url: https://motional.com/news
+    type: Blog
   - type: TechnicallySpeaking
     url: https://motional.com/technicallyspeaking
   - type: PressKit
