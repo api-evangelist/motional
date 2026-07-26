@@ -16,10 +16,22 @@ description: >-
   Motional does not publish a traditional public developer API; the developer
   surface is research-dataset access plus open-source devkits.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motional.png
 access: 3rd-Party
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 position: Consumer
 tags:
   - Autonomous Vehicles
@@ -33,48 +45,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/motional/refs/heads/main/apis.yml
 specificationVersion: '0.19'
-apis:
-  - aid: motional:nuscenes
-    name: nuScenes Dataset
-    description: >-
-      nuScenes is a large-scale public dataset for autonomous driving released
-      by Motional (formerly nuTonomy). It contains 1,000 driving scenes from
-      Boston and Singapore, with full sensor suites (6 cameras, 5 radars, 1
-      lidar), 3D bounding box annotations across 23 object classes, and
-      HD-map data. nuScenes is widely used to benchmark 3D detection,
-      tracking, prediction, and panoptic segmentation models, and is
-      distributed via the nuscenes-devkit Python library.
-    humanURL: https://www.nuscenes.org
-    baseURL: https://github.com/nutonomy/nuscenes-devkit
-    tags:
-      - Open Dataset
-      - 3D Perception
-      - Lidar
-      - Radar
-      - Camera
-      - Research
-    properties:
-      - type: Documentation
-        url: https://www.nuscenes.org
-      - type: Repository
-        url: https://github.com/nutonomy/nuscenes-devkit
-      - type: Download
-        url: https://www.nuscenes.org/download
-  - aid: motional:avcdl
-    name: AVCDL - Automated Vehicle Cybersecurity Development Lifecycle
-    description: >-
-      Open-source materials for Motional's Automated Vehicle Cybersecurity
-      Development Lifecycle, intended to share AV-industry cybersecurity
-      practices with the broader research and engineering community.
-    humanURL: https://github.com/nutonomy/AVCDL
-    baseURL: https://github.com/nutonomy/AVCDL
-    tags:
-      - Cybersecurity
-      - SDLC
-      - Open Source
-    properties:
-      - type: Repository
-        url: https://github.com/nutonomy/AVCDL
+apis: []
 common:
   - type: VulnerabilityDisclosure
     url: security/motional-vulnerability-disclosure.yml
@@ -114,6 +85,8 @@ common:
     url: https://twitter.com/motionaldrive
   - type: YouTube
     url: https://www.youtube.com/@MotionalDrive
+  - type: ProductPage
+    url: https://github.com/nutonomy/AVCDL
 integrations:
   - name: Uber
   - name: Uber Eats
