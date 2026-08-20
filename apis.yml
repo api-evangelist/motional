@@ -41,6 +41,15 @@ tags:
   - Aptiv
   - Open Dataset
   - nuScenes
+  - LiDAR
+tags_raw:
+  - Autonomous Vehicles
+  - Robotaxi
+  - Self-Driving
+  - Hyundai
+  - Aptiv
+  - Open Dataset
+  - nuScenes
   - Lidar
 url: >-
   https://raw.githubusercontent.com/api-evangelist/motional/refs/heads/main/apis.yml
